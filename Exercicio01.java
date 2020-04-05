@@ -26,6 +26,8 @@ public void actionPerformed(ActionEvent arg0) {
 new Veiculo();
 }
 });
+
+
 fechar.addActionListener(new ActionListener() {
 public void actionPerformed(ActionEvent arg0) {
 if (JOptionPane .showConfirmDialog(null, "Fechar aplicação?","Fechar", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
